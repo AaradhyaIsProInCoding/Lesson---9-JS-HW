@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title></title>
+</head>
+<body>
+    <p><b>Multiply every element in the array with 9:</b></p>
+    <p id="product_value"></p>
+    <script>
+        var numbers = [14, 2, 8, 9];
+        function myFunction(num) {
+            return num * 9;
+        }
+        var newarray = numbers.map(myFunction);
+        document.getElementById("product_value").innerHTML = newarray;
+        </script>
+</body>
+</html>
